@@ -7,7 +7,7 @@ c = "You've ended the game"
 i = 0
 
 while i<=20:
-    Guess = str(input(">"))
+    Guess = str(input(">")).lower
     i = i+1
     
     if Guess == "start":
